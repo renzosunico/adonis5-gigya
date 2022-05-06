@@ -5,7 +5,7 @@ export default class GigyaProvider {
   constructor(protected app: ApplicationContract) {}
 
   public register() {
-    const { apiKey, dataCenter, userKey, secretKey, rsa } = this.app.config.get('gigya.gigyaConfig')
+    const { apiKey, dataCenter, userKey, secretKey, rsa } = this.app.config.get('gigya')
 
     this.app.container.singleton('Gigya', () => {
       if (rsa) {
