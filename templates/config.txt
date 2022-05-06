@@ -1,0 +1,23 @@
+import Env from '@ioc:Adonis/Core/Env'
+
+interface GigyaConfig {
+  apiKey: string
+  dataCenter: 'us1' | 'eu1' | 'au1' | 'ru1' | 'cn1' | 'il1'
+  secretKey: string
+  userKey?: string
+  rsa?: {
+    userKey: string,
+    privateKey: string
+  }
+}
+
+export default {
+  apiKey: Env.get('GIGYA_API_KEY'),
+  dataCenter: Env.get('GIGYA_DATA_CENTER'),
+  secretKey: Env.get('GIGYA_SECRET_KEY'),
+  userKey: Env.get('GIGYA_USER_KEY'),
+  rsa: {
+    userKey: Env.get('GIGYA_USER_KEY'),
+    privateKey: Env.get('GIGYA_PRIVATE_KEY')
+  }
+} as GigyaConfig
