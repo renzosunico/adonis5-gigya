@@ -1,6 +1,6 @@
 {
   "name": "adonis5-gigya",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gigya provider for AdonisJS 5",
   "author": "John Renzo Sunico",
   "scripts": {
@@ -57,7 +57,9 @@
   "files": [
     "build/adonis-typings",
     "build/src/providers",
-    "build/templates"
+    "build/templates",
+    "build/index.js",
+    "build/index.d.ts"
   ],
   "dependencies": {
     "gigya": "^3.0.1"
