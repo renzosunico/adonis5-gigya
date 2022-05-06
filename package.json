@@ -57,7 +57,7 @@
   "files": [
     "build/adonis-typings",
     "build/src/providers",
-    "build/src/templates"
+    "build/templates"
   ],
   "dependencies": {
     "gigya": "^3.0.1"
