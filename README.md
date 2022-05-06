@@ -12,7 +12,7 @@ Gigya service provider for AdonisJs 5. This uses the unofficial SDK of Gigya as 
 
 # Installation
 ```bash
-npm i --save adonis5-sentry
+npm i --save adonis5-gigya
 ```
 Connect all dependences:
 ```bash
