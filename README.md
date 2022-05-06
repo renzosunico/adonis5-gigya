@@ -44,7 +44,7 @@ Then you will now be able to access the Gigya SDK from here
 
 For additional details of Gigya SDK, please check the Gigya SDK documentation by this link [Gigya docs](https://github.com/scotthovestadt/gigya#readme)
 
-[npm-image]: https://img.shields.io/npm/v/Anonymous.svg?style=for-the-badge&logo=npm
+[npm-image]: https://img.shields.io/npm/v/adonis5-gigya.svg?style=for-the-badge&logo=npm
 [npm-url]: https://npmjs.org/package/adonis5-gigya "npm"
 
 [license-image]: https://img.shields.io/npm/l/adonis5-gigya?color=blueviolet&style=for-the-badge
