@@ -6,7 +6,7 @@ interface GigyaConfig {
   secretKey: string
   userKey?: string
   rsa?: {
-    userKey: string,
+    userKey: string
     privateKey: string
   }
 }
