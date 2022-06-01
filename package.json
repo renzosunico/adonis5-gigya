@@ -1,6 +1,6 @@
 {
   "name": "adonis5-gigya",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gigya provider for AdonisJS 5",
   "author": "John Renzo Sunico",
   "scripts": {
