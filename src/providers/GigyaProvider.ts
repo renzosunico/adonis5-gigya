@@ -4,7 +4,9 @@ import Gigya from 'gigya'
 export default class GigyaProvider {
   constructor(protected app: ApplicationContract) {}
 
-  public register() {
+  public register() {}
+
+  public async boot(): Promise<void> {
     const { apiKey, dataCenter, userKey, secretKey, rsa } = this.app.config.get('gigya')
 
     this.app.container.singleton('Gigya', () => {
