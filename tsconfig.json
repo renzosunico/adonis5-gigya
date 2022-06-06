@@ -8,13 +8,8 @@
   "emitDecoratorMetadata": true,
   "noUnusedLocals": true,
   "pretty": true,
-  "lib": [
-    "esnext"
-  ],
+  "lib": ["esnext"],
   "compilerOptions": {
-    "types": [
-      "@types/node",
-      "@adonisjs/core"
-    ]
+    "types": ["@types/node", "@adonisjs/core"]
   }
 }
