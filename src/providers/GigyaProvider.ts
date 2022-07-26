@@ -9,7 +9,7 @@ export default class GigyaProvider {
   public async boot(): Promise<void> {
     const { apiKey, dataCenter, userKey, secretKey, rsa } = this.app.config.get('gigya')
 
-    this.app.container.singleton('Gigya', () => {
+    this.app.container.bind('Gigya', () => {
       if (rsa) {
         return new Gigya(apiKey, dataCenter, rsa)
       }
