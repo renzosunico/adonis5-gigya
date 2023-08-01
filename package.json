@@ -69,7 +69,7 @@
     "build/index.d.ts"
   ],
   "dependencies": {
-    "gigya": "npm:@cambridge-pte/gigya@^3.0.2"
+    "gigya": "npm:@cambridge-pte/gigya@^3.0.3"
   },
   "mrmConfig": {
     "core": false,
